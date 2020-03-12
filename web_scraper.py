@@ -12,13 +12,13 @@ def title_generator(links):
             url = titleize(url)
             titles.append(url)
 
-<!--- UPDATED CODE -->
+#<!--- UPDATED CODE -->
     for link in links:
         if link.get('href') == None:
             continue
         else:
-        post_formatter(link.get("href"))
-<!--- UPDATED CODE -->
+            post_formatter(link.get("href"))
+#<!--- UPDATED CODE -->
 
     return titles
 
